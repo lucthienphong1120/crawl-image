@@ -16,7 +16,7 @@ banner = """
 
 print(banner)
 
-search = input('Nhập dữ liệu cần tìm: ')
+search = input('Enter the search term: ')
 
 search = urllib.parse.quote(search)
 
